@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Davelyn Sanchez — aspiring IT professional and student portfolio.">
+    <title>Davelyn Sanchez | Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Oswald:wght@400;500;600;700&family=Playfair+Display:ital,wght@1,500;1,600&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="./pic.png">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="page-noise" aria-hidden="true"></div>
+
+    <header class="site-header">
+        <a class="brand" href="#home" aria-label="Davelyn Sanchez home">DS<span>.</span></a>
+        <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false">
+            <span></span><span></span>
+        </button>
+        <nav class="nav-links" aria-label="Main navigation">
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#goals">Goals</a>
+            <a class="nav-contact" href="#contact">Let's Talk <span>↗</span></a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero section-shell" id="home">
+            <div class="hero-copy reveal">
+                <p class="eyebrow light-eyebrow"><span class="eyebrow-line"></span> Welcome to my portfolio</p>
+                <h1>Hello, I'm<br><span>Davelyn</span> Sanchez<span class="period">.</span></h1>
+                <p class="hero-role">Aspiring IT Professional</p>
+                <p class="hero-description">I am passionate about learning technology, improving my programming skills, web development, and exploring new things. I believe that learning takes time, and every experience helps me grow.</p>
+                <div class="hero-actions">
+                    <a class="button button-cream" href="#projects">Explore my work <span>↗</span></a>
+                    <a class="text-link light-link" href="#about">Get to know me <span>↓</span></a>
+                </div>
+            </div>
+
+            <div class="hero-art reveal">
+                <div class="portrait-frame">
+                    <div class="portrait-glow"></div>
+                <div class="portrait-placeholder">
+                    <img src="./pic.png"
+                    alt="Portrait of Davelyn Sanchez"
+                    class="profile-photo">
+                </div>
+                </div>
+                <span class="hero-side-note">STUDENT / FUTURE IT PROFESSIONAL</span>
+
+            </div>
+            <a class="scroll-cue" href="#about"><span></span> Scroll to explore</a>
+        </section>
+
+        <section class="about section-shell section-light" id="about">
+            <div class="section-topline reveal"><span>01 / A LITTLE INTRODUCTION</span><span>GET TO KNOW ME</span></div>
+            <div class="about-grid">
+                <div class="about-heading reveal">
+                    <p class="script-label">A little</p>
+                    <h2>ABOUT<br>ME<span>.</span></h2>
+                    <div class="about-shape">DS</div>
+                </div>
+                <div class="about-copy reveal">
+                    <p class="large-copy">Learning today.<br><em>Building tomorrow.</em></p>
+                    <p>Hi! I'm Davelyn Sanchez, an Information Technology student who enjoys learning about computers, exploring technology, and understanding how websites and applications work. I am interested in developing my programming skills and discovering new things in the world of IT.</p>
+                    <p>I believe that hard work, dedication, and continuous learning are important in achieving success. My goal is to improve my knowledge, gain more experience, and become a successful IT professional.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="skills section-shell" id="skills">
+            <div class="section-topline light-topline reveal"><span>02 / WHAT I'M LEARNING</span><span>MY CAPABILITIES</span></div>
+            <div class="section-heading-row reveal">
+                <div><p class="script-label light-script">Growing every day</p><h2>MY <span>SKILLS</span></h2></div>
+                <p class="heading-note">A collection of skills I'm learning and improving as I continue my journey in Information Technology.</p>
+            </div>
+            <div class="skills-grid">
+                <article class="skill-card reveal"><span class="skill-index">01</span><span class="skill-symbol">&lt;/&gt;</span><h3>HTML & CSS</h3><p>Creating the structure, layout, and visual design of websites.</p><span class="skill-tag">WEB DESIGN</span></article>
+                <article class="skill-card reveal"><span class="skill-index">02</span><span class="skill-symbol">{ JS }</span><h3>JavaScript</h3><p>Learning to add interaction and dynamic behavior to websites.</p><span class="skill-tag">INTERACTIVITY</span></article>
+                <article class="skill-card reveal"><span class="skill-index">03</span><span class="skill-symbol">C++</span><h3>C++</h3><p>Understanding programming fundamentals, logic, and problem-solving.</p><span class="skill-tag">PROGRAMMING</span></article>
+                <article class="skill-card reveal"><span class="skill-index">04</span><span class="skill-symbol">✳</span><h3>Communication</h3><p>Sharing ideas clearly and listening to different perspectives.</p><span class="skill-tag">PEOPLE SKILLS</span></article>
+                <article class="skill-card reveal"><span class="skill-index">05</span><span class="skill-symbol">＋</span><h3>Teamwork</h3><p>Working with others, cooperating, and contributing to shared goals.</p><span class="skill-tag">COLLABORATION</span></article>
+            </div>
+        </section>
+
+        <section class="projects section-shell section-light" id="projects">
+            <div class="section-topline reveal"><span>03 / SELECTED WORK</span><span>WHAT I CAN CREATE</span></div>
+            <div class="section-heading-row reveal">
+                <div><p class="script-label">Learning by doing</p><h2>MY<br>PROJECTS<span>.</span></h2></div>
+                <p class="heading-note">Some of the concepts and practice projects that help me turn what I learn into something useful.</p>
+            </div>
+            <div class="project-list">
+                <article class="project-card reveal">
+                    <div class="project-visual visual-one"><span class="visual-label">01 / WEB DESIGN</span><div class="browser-mock"><div class="browser-bar"><i></i><i></i><i></i></div><div class="browser-content"><span>MY<br>PORTFOLIO</span><div class="browser-circle"></div></div></div></div>
+                    <div class="project-info"><p class="script-label">First project</p><h3>Portfolio<br>Website</h3><p>A personal website created using HTML, CSS, and JavaScript to introduce my background, skills, and goals.</p><div class="project-tags"><span>HTML</span><span>CSS</span><span>JAVASCRIPT</span></div></div>
+                    <span class="project-arrow">↗</span>
+                </article>
+                <article class="project-card reverse reveal">
+                    <div class="project-visual visual-two"><span class="visual-label">02 / SYSTEM CONCEPT</span><div class="system-mock"><div class="system-sidebar"></div><div class="system-main"><div class="system-top"></div><div class="system-boxes"><i></i><i></i><i></i></div><div class="system-table"></div></div></div></div>
+                    <div class="project-info"><p class="script-label">Second project</p><h3>Entry & Cashless<br>Purchase System</h3><p>A school project concept for organizing entry monitoring and cashless transactions in a more convenient way.</p><div class="project-tags"><span>SYSTEM DESIGN</span><span>CONCEPT</span></div></div>
+                    <span class="project-arrow">↗</span>
+                </article>
+                <article class="project-card reveal">
+                    <div class="project-visual visual-three"><span class="visual-label">03 / PROGRAMMING</span><div class="calculator"><div class="calc-screen">95.00</div><div class="calc-grid"><i>7</i><i>8</i><i>9</i><i>÷</i><i>4</i><i>5</i><i>6</i><i>×</i><i>1</i><i>2</i><i>3</i><i>−</i><i>0</i><i>.</i><i>=</i><i>+</i></div></div></div>
+                    <div class="project-info"><p class="script-label">Third project</p><h3>Grade<br>Calculator</h3><p>A basic programming project that calculates student grades and helps practice logical thinking.</p><div class="project-tags"><span>C++</span><span>LOGIC</span><span>BEGINNER PROJECT</span></div></div>
+                    <span class="project-arrow">↗</span>
+                </article>
+            </div>
+            
+        </section>
+
+        <section class="goals section-shell" id="goals">
+            <div class="section-topline light-topline reveal"><span>04 / LOOKING AHEAD</span><span>MY FUTURE</span></div>
+            <div class="goals-grid">
+                <div class="goals-title reveal"><p class="script-label light-script">The next chapter</p><h2>GROW.<br>LEARN.<br><span>CREATE.</span></h2></div>
+                <div class="goals-copy reveal"><span class="goal-star">✳</span><h3>Career Goals</h3><p>I aim to enhance my technical skills, explore new technologies, develop useful projects, gain valuable experience, and become a successful IT professional in the future.</p><a href="#contact" class="text-link light-link">Let's connect <span>↗</span></a></div>
+            </div>
+        </section>
+
+        <section class="contact section-shell section-light" id="contact">
+            <div class="section-topline reveal"><span>05 / SAY HELLO</span><span>GET IN TOUCH</span></div>
+            <div class="contact-grid">
+                <div class="contact-heading reveal"><p class="script-label">Let's create</p><h2>SOMETHING<br><span>TOGETHER.</span></h2><p>Have a question, an idea, or just want to connect? Feel free to reach out.</p></div>
+                <div class="contact-details reveal">
+                    <a href="mailto:davelynsanchez320@gmail.com" class="contact-row"><span class="contact-label">EMAIL</span><span>davelynsanchez320@gmail.com</span><b>↗</b></a>
+                    <a href="tel:09064956757" class="contact-row"><span class="contact-label">PHONE</span><span>0906 496 5757</span><b>↗</b></a>
+                    <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer" class="contact-row"><span class="contact-label">FACEBOOK</span><span>Davelyn Sanchez</span><b>↗</b></a>
+                    <a href="https://www.instagram.com/dabsnationpo/" target="_blank" rel="noopener noreferrer" class="contact-row"><span class="contact-label">INSTAGRAM</span><span>@dabsnationpo</span><b>↗</b></a>
+                    
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <a class="footer-brand" href="#home">DAVELYN<span>.</span></a>
+        <p>Designed with curiosity, built with code.</p>
+        <span>© <span id="year"></span> Davelyn Sanchez</span>
+        <a href="#home" class="back-top">BACK TO TOP ↑</a>
+    </footer>
+</body>
+</html>
